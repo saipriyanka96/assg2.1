@@ -1,0 +1,32 @@
+Explain the Java Architecture.
+
+Java Architecture consists of 5 different parts:
+
+1)Source Code:
+The programing language provides a series of instructions they 
+can use to create the program they want.All the instructions a 
+programmer uses to build the program are known as Source code.
+
+2)Java Complier:A compiler is a software that transforms computer
+code written in one programming language(the source language) into 
+another computer langauge(the target language)
+A java complier is a compiler for the programming language java. 
+The common compiler for the java is java class files containing 
+platform neutral java byte code.
+
+Source code is compiled into byte code when we use the java complier.
+The byte code gets saved on the disk with file extension .class.When 
+the program is to be run the byte is converted,using the JIT compiler 
+
+3)Byte code:Byte code is the compile format for java programs.
+Once a java program has been converted to byte,it can be transferred
+across a network and executed by Java Virtual Machine.
+
+4)Java Virtual Machine:It is a abstract computing machine that enables
+as a fundamental component
+
+5)Operating System:OS is a OS with JVM as a fundamental component. 
+We need the OS for all the things a C and C++ program would. The JVM 
+does a few more things by default,but it doesn't relpace anything the OS
+does.
+
